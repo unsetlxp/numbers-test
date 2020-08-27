@@ -1,20 +1,21 @@
 {
     "name": "numbers-test/numbers-test",
-    "description": "测试类",
+    "description": "test",
+    "license": "Apache-2.0",
     "authors": [
         {
-            "name": "unsetlxp",
-            "email": "18311904061@163.com"
+            "name": "liu21st",
+            "email": "liu21st@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0.0"
     },
     "autoload": {
         "psr-4": {
-            "numberFormat\\": "src/"
+            "numberFormat\\": "src"
         }
-    },
-    "license": "MIT"
+    }, 
+    "minimum-stability": "dev"
 }
